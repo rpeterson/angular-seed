@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/build/build.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="/static/<%= grunt.config.get('pkg.name') %>.css"/>-->
+</head>
+
+<body ng-controller="AppCtrl">
+<div ng-include="'header.tpl.html'"></div>
+
+<login-form></login-form>
+<div ng-include="'notifications.tpl.html'" class="container-fluid" ng-show="notifications.getCurrent().length"></div>
+<div ng-view class="container-fluid"></div>
+
+<script type="text/javascript" src="/static/<%= grunt.config.get('pkg.name') %>.js"></script>
+</body>
+</html>

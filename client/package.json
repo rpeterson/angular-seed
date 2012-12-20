@@ -1,0 +1,31 @@
+{
+    "author": "Ryan J. Peterson",
+    "name": "angular-seed",
+    "homepage": "https://github.com/rpeterson/angular-seed",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rpeterson/angular-seed.git"
+    },
+    "bugs": {
+        "url": "https://github.com/rpeterson/angular-seed/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/rpeterson/angular-seed/master/LICENSE"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.4"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.3.17",
+        "grunt-recess": "~0.1.0",
+        "grunt-contrib-clean": "~0.3.0",
+        "grunt-contrib-copy": "~0.3.0",
+        "grunt-coffee": "~0.0.6",
+        "coffee-script": "latest"
+    }
+}

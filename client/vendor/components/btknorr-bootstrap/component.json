@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap",
+  "version": "2.2.1",
+  "description": "Component version of the full twitter bootstrap framework",
+  "homepage": "http://twitter.github.com/bootstrap",
+  "keywords": [
+    "twitter",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "component/jquery": "*"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "docs/assets/css/bootstrap.css",
+    "docs/assets/css/bootstrap-responsive.css"
+  ],
+  "files": [
+    "docs/assets/img/glyphicons-halflings-white.png",
+    "docs/assets/img/glyphicons-halflings.png"
+  ],
+  "repo": "https://raw.github.com/btknorr/bootstrap"
+}

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "btknorr/bootstrap": "*",
+    "component/moment": "*",
+    "timoxley/font-awesome": "*",
+    "component/underscore": "*"
+  }
+}
