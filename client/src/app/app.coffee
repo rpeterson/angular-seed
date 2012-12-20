@@ -1,4 +1,4 @@
-angular.module "app", ["login","dashboard", "admin", "services.breadcrumbs", "services.i18nNotifications", "services.httpRequestTracker", "templates"] # "directives.crud",
+angular.module "app", ["login","dashboard", "admin", "services.breadcrumbs", "services.i18nNotifications", "services.httpRequestTracker", "directives.crud", "templates"]
 
 angular.module("app").constant "MONGOLAB_CONFIG",
   baseUrl: "http://localhost:3000/databases/"

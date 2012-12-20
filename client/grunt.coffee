@@ -19,7 +19,7 @@ module.exports = (grunt) ->
       tpl: ["src/app/**/*.tpl.html"]
       less: ["src/less/stylesheet.less"] # recess:build doesn't accept ** in its file patterns
 
-    clean: ["<%= distdir %>/*"]
+    clean: ["<%= distdir %>/*", "src/build/*"]
     copy:
       assets:
         files:
@@ -36,6 +36,9 @@ module.exports = (grunt) ->
       dist:
         src: ["src/**/*.coffee"]
         dest: "src/build/"
+        options:
+          preserve_dirs: true
+          base_path: 'src'
 
     html2js:
       src: ["<config:src.tpl>"]
